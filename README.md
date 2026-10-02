@@ -36,7 +36,7 @@ Tệp `.nojekyll` đã có sẵn để phục vụ website trực tiếp. Không
 | Mức zoom ảnh khi rê chuột | `.image-zoom:hover img` trong `styles.css`, hiện là `scale(1.035)` |
 | Ảnh chân dung và ảnh hoạt động | `assets/images` |
 | CV tải về | Hai tệp PDF trong `assets/documents`; giữ nguyên tên tệp để các nút tải vẫn hoạt động |
-| Email và các liên kết cá nhân | `index.html`; email sao chép cũng cần đổi trong `app.js` |
+| Email, số điện thoại và các liên kết cá nhân | `index.html`; email sao chép cũng cần đổi trong `app.js` |
 
 Sau khi cập nhật `translations.js`, giữ nội dung dự phòng tương ứng trong `index.html` đồng nhất. Commit thay đổi lên nhánh `main`; GitHub Pages sẽ triển khai lại theo cấu hình đã chọn.
 
@@ -48,7 +48,7 @@ Nội dung hiện dần một lần khi cuộn, với thời gian 0,65 giây. �
 
 Menu hỗ trợ bàn phím và phím Escape. Có liên kết bỏ qua điều hướng, mô tả ảnh, focus rõ ràng và trạng thái nút chuyển ngôn ngữ. Khi JavaScript bị tắt, toàn bộ nội dung tiếng Anh, liên kết, các mục mở rộng và CV vẫn sử dụng được.
 
-Hai CV PDF là bản dùng cho website công khai, được chuyển từ CV người dùng gửi. Địa chỉ nhà chi tiết, ngày sinh và thông tin của người tham chiếu được lược khỏi bản công khai. Các tệp DOCX gốc không bị thay đổi. Nội dung còn lại và tên người dùng được giữ nguyên.
+Hai CV PDF được cập nhật từ đúng hai bản Resume(3).pdf tiếng Anh và tiếng Việt do chủ hồ sơ cung cấp ngày 02/10/2026, giữ nguyên nội dung và định dạng. Chủ hồ sơ đã xác nhận cho phép công khai thông tin cá nhân trên repository. Số điện thoại +84 365 889 231 được hiển thị trong mục liên hệ với liên kết gọi tel:+84365889231.
 
 Ảnh được chọn từ ảnh người dùng cung cấp; không tạo lại hoặc thay đổi khuôn mặt. Hai tên bài nghiên cứu giữ nguyên tên công bố tiếng Anh ở cả hai ngôn ngữ. Thông tin bài nghiên cứu và thành tích được trình bày theo CV; không tự thêm số liệu kết quả, kỹ năng ở mức phần trăm hoặc chứng thực của bên thứ ba.
 
@@ -63,3 +63,4 @@ Tài nguyên dùng đường dẫn tương đối, phù hợp cả user site và
 - Icon Lucide: ISC License, xem `assets/ICONS-LICENSE.txt`.
 
 Ảnh, CV và nội dung hồ sơ cá nhân thuộc chủ hồ sơ. Các giấy phép của font và icon không cấp quyền tái sử dụng ảnh hoặc CV.
+

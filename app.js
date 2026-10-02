@@ -57,8 +57,9 @@
     document.querySelector('.language-switch').setAttribute('aria-label', text[next].languageLabel);
     menu.setAttribute('aria-label', menu.getAttribute('aria-expanded') === 'true' ? text[next].menuClose : text[next].menuOpen);
     document.querySelectorAll('.resume-link').forEach(link => {
-      link.href = window.PORTFOLIO_CV ? window.PORTFOLIO_CV[next] : `assets/documents/minh-duy-resume-${next}.pdf`;
+      link.href = window.PORTFOLIO_CV ? window.PORTFOLIO_CV[next] : `assets/documents/minh-duy-resume-${next}.pdf?v=20261002-cv3`;
       link.download = `minh-duy-resume-${next}.pdf`;
+      link.dataset.cvLanguage = next;
     });
     copyStatus.textContent = '';
     clearTimeout(copyReset);
@@ -167,3 +168,4 @@
     sections.forEach(section => { if (section) trackSection.observe(section); });
   }
 })();
+

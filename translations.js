@@ -142,6 +142,7 @@ window.PORTFOLIO_TEXT = {
     "contactLabel": "GET IN TOUCH",
     "contactTitle": "Let’s talk about marketing and higher education.",
     "contactDesc": "I am seeking lecturer opportunities in marketing and roles within education organisations, with a preference for Ho Chi Minh City.",
+    "phoneLabel": "Phone: ",
     "copyEmail": "Copy email",
     "cvEnglish": "English CV",
     "cvVietnamese": "Vietnamese CV",
@@ -300,6 +301,7 @@ window.PORTFOLIO_TEXT = {
     "contactLabel": "LIÊN HỆ",
     "contactTitle": "Trao đổi về marketing và giáo dục đại học.",
     "contactDesc": "Tôi đang tìm cơ hội giảng dạy marketing và công việc tại các tổ chức giáo dục, ưu tiên TP. Hồ Chí Minh.",
+    "phoneLabel": "Điện thoại: ",
     "copyEmail": "Sao chép email",
     "cvEnglish": "CV tiếng Anh",
     "cvVietnamese": "CV tiếng Việt",
@@ -317,3 +319,4 @@ window.PORTFOLIO_TEXT = {
     "copyLabelSuccess": "Đã sao chép"
   }
 };
+
